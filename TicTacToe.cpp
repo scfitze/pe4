@@ -8,6 +8,14 @@ const int N = 3; //size of array
 //0 is O in tic tac toe
 //1 is X, and 2 means the board is empty
 
+void printArray(int** arr){
+    for(int i = 0; i <N; ++i){
+        for(int j= 0; j<N; ++j){
+            cout << arr[i][j];
+        }
+        cout << endl;
+    }
+}
 
 int** CreateBoard(){
     int** arr = new int*[N];
