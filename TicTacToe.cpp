@@ -20,8 +20,18 @@ int** CreateBoard(){
     return arr;
 }
 
+void DisplayBoard(int **arr){
+    for(int i = 0; i < N; i++){
+        for(int j = 0; j < N; j++){
+            cout << arr[i][j];
+        }
+        cout << endl;
+    }
+}
+
 int main(){
     int **arr;
     arr = CreateBoard();
+    DisplayBoard(arr);
     return 0;
 }
