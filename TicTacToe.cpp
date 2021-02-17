@@ -74,7 +74,7 @@ int main(){
     arr = CreateBoard(); //creates board and sets double pointer to point to the board
     DisplayBoard(arr); //displays board
     cout << "Let's Play Tic-Tac-Toe!" << endl; 
-    int turns = 0; //keeps track of how many turns
+    int turns = 1; //keeps track of how many turns
     int* loc; //stores address of location user wants to mark
 
     while(turns < 9){ //no more than 9 turns in a 3x3 board
