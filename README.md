@@ -7,8 +7,8 @@ Person 2: Sean Fitze
 
 Our program runs through a game of Tic-Tac-Toe by asking the user for a row and column each turn. For example if you choose row 0 and col 1, you'll go here:
 <p>
-010/n
-000/n
-000/n
+010<b>
+000<b>
+000<b>
 <p>
 The program runs for nine turns. Have fun playing it!
